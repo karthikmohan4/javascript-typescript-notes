@@ -8,8 +8,8 @@ function pattern2(n){
     }
 }
 
-
-console.log(pattern2(5));
+const search = require('./test.js')
+console.log(search.module);
 
 /*
 *
