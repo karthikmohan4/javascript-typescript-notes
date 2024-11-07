@@ -16,3 +16,13 @@ let x:any = 10;
 x= "add";
 
 
+//type inferring
+type details = {name:string,marks:number,address?:string};
+
+const result :details= {
+    name:"karthi",
+    marks:85,
+    address:"Bengaluru"
+}
+result.marks = 88;
+console.log(result);
